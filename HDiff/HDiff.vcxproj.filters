@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="diff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\limit_mem_diff\stream_serialize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\limit_mem_diff\covers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\pack_uint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\limit_mem_diff\adler_roll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\limit_mem_diff\bloom_filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\limit_mem_diff\digest_matcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\libdivsufsort\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\libdivsufsort\divsufsort.c.inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\libdivsufsort\divsufsort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\libdivsufsort\divsufsort_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\libdivsufsort\divsufsort64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\libdivsufsort\sssort.c.inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\libdivsufsort\trsort.c.inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\libdivsufsort\utils.c.inc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="diff_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="match_block.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\bytes_rle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\compress_detect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\mem_buf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="private_diff\suffix_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HPatch\patch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_atosize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_clock_for_demo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file_for_patch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dir_patch_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HPatch\patch_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dir_patch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="diff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private_diff\suffix_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private_diff\limit_mem_diff\stream_serialize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private_diff\limit_mem_diff\adler_roll.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private_diff\libdivsufsort\divsufsort.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private_diff\libdivsufsort\divsufsort64.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="match_block.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private_diff\bytes_rle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private_diff\limit_mem_diff\digest_matcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HPatch\patch.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hdiffz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HPatch\file_for_patch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private_diff\compress_detect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
