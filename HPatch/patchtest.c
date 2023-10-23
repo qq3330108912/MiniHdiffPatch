@@ -32,12 +32,6 @@ void save_data_to_file(unsigned char* buff, int length, char const* file)
     fwrite(buff, length, 1, fp);
     fclose(fp);
 }
-void save_data_to_file2(unsigned char* buff, int length,const char*path)
-{
-    FILE* fp = fopen(path, "wb");
-    fwrite(buff, length, 1, fp);
-    fclose(fp);
-}
 
 unsigned int CRC_CCITT(unsigned char* arr_buff, unsigned int len)
 {
@@ -164,7 +158,6 @@ uint08 patch(/*const*/ TByte* oldData,/*const*/ TByte* oldData_end, const TByte*
                 return hpatch_FALSE;
             }
         }
-        save_data_to_file2(oldData, newDataSize, "movedump");
         for (i = 0; i < coverCount; ++i) {
             hpatch_size_t copyLength, addLength, oldPos, inc_oldPos, inc_oldPos_sign;
             unpackUIntTo(&copyLength, &code_inc_newPos);
